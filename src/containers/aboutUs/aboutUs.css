@@ -1,0 +1,5 @@
+.about{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #1a1414 0%, black 100%);
+}
