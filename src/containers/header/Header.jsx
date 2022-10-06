@@ -8,7 +8,7 @@ const Header = () => {
       <div className='corpName'>
       <h1 className='h1'>Neulpum</h1>
       <h3 className='h3'>Success seems to be connected with action. <br />
-      Successful people keep moving.
+      Successful people keep moving. hhhhh
       </h3>
       </div>
     </div>
