@@ -15,13 +15,13 @@ function NavBar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top" >
       <Container>
-        <Navbar.Brand href="#home">Neulpum</Navbar.Brand>
+        <Navbar.Brand href="#home"><Link to='/' element={<App/>} style={{ textDecoration: 'none', color: 'white' }}>Neulpum</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#"><Link to='/' element={<App/>}>Home</Link></Nav.Link>
-            <Nav.Link href="#company"><Link to='/company' element={<Company/>}>Company</Link></Nav.Link>
-            <Nav.Link href="#tech"><Link to='/techpage' element={<Techpage/>}>Technology</Link></Nav.Link>
+            <Nav.Link href="#"><Link to='/' element={<App/>} style={{ textDecoration: 'none', color: 'white' }}>Home</Link></Nav.Link>
+            <Nav.Link href="#company"><Link to='/company' element={<Company/>} style={{ textDecoration: 'none' , color: 'white' }}>Company</Link></Nav.Link>
+            <Nav.Link href="#tech"><Link to='/techpage' element={<Techpage/>} style={{ textDecoration: 'none' , color: 'white'}}>Technology</Link></Nav.Link>
             {/* <Nav.Link href="#career"><Link to='career' element={<Career/>}>Career</Link></Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
