@@ -1,5 +1,36 @@
-.video {
+.video-container {
   width: 100%;
-  height: 100vh;
-  background-color: pink;
+  height: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.video-inner {
+  width: 90%;
+  /* border: 4px solid black; */
+}  
+.video-section{
+  width: 100%;
+  height: 70vh;
+  /* border: 4px solid rebeccapurple; */
+}
+.video-margin {
+  /* border: 4px solid rebeccapurple; */
+  height: 15vh;
+}
+.video-textContainer{
+  width: 100%;
+  height: 100%;
+  padding: 0 4%;
+  line-height: 1.6;
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.video-title{
+  margin-left: 3%;
+  font-weight: 800;
+  font-size: 3rem;
 }

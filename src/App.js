@@ -10,6 +10,7 @@ import License from './containers/license/License';
 import Video from './containers/video/Video';
 import Footer from './containers/footer/Footer';
 import Result from './containers/result/Result';
+import Vision from './containers/Vision/Vision';
 
 function App() {
   return (
@@ -17,12 +18,12 @@ function App() {
       <NavBar/>
       <Header/>
       <AboutUs/>
+      <Vision />
       <Tech1/>
-      <Tech2/>
-      <Result/>
+      <Video />
+      {/* <Result/> */}
       <License/>
-      <Video/>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }
