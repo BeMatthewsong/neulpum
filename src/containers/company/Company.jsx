@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import NavBar from '../navBar/NavBar';
+import Footer from '../footer/Footer';
 
 const Company = () => {
   return (
@@ -81,6 +82,7 @@ const Company = () => {
                   </Col>
                 </Row>
             </Container>
+            <Footer />
           </div>
         </div>
       </div>

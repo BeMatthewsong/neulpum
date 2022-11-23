@@ -3,6 +3,7 @@ import './techpage.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import NavBar from '../navBar/NavBar';
+import Footer from "../footer/Footer";
 
 const Techpage = () => {
   useEffect(() => {
@@ -79,11 +80,27 @@ const Techpage = () => {
             <div className="padding"></div>
             <h4>건축물의 시작부터 끝까지 건축물 생애이력을 관리해드립니다.</h4>
             <div className="padding"></div>
-            <img src="/images/techpage_image_11.png" alt="Remodeling7" height={150} width={600} />
+            <img src="/images/techpage_image_11.png" alt="Safety" height={150} width={600} />
             <div className="padding"></div>
             <p>늘품내진이앤씨는 안전진단 전문기관으로서  각종 진단업무를 수행합니다.건축물의 안전한 생애이력 늘품내진앤씨와 함께하세요.</p>
           </div>
         </div>
+        <div className="techpage-container" 
+          data-aos="fade-up" 
+          data-aos-offset="200" 
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" >
+          <div className="techpage-description">
+            <h1 className='techpage-title'>SHM</h1>
+            <div className="padding"></div>
+            <h4>건축물의 구조성능 파악을 위한 구조물 상시 모니터링 시스템</h4>
+            <div className="padding"></div>
+            <img src="/images/techpage_image_12.png" alt="SHM" height={1200} width={800} />
+            <div className="padding"></div>
+            <p>늘품은 디지털 전환 시대에 앞서 건축물의 성능을 데이터로 평가하고 전환할 수 있는건설분야 센서 시스템을 개발하여 다양한 혁신 기술을 제공하고 있습니다.</p>
+          </div>
+        </div>
+        <Footer />
     </>
   )
 }
